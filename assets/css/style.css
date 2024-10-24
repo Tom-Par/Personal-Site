@@ -10,11 +10,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 15px;
-  
 }
 .footer-background {
-    background-color: #674636;
-    
+  background-color: #674636;
 }
 .gallery-title {
   text-align: center;
@@ -22,9 +20,9 @@
 }
 
 @media (max-width: 1050px) {
-    .container-grid{
-        margin-left: 0;
-    }
+  .container-grid {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 992px) {
@@ -34,6 +32,7 @@
     margin-left: 0;
   }
 }
+
 @media (max-width: 768px) {
   .container-grid {
     grid-template-columns: 1fr;
