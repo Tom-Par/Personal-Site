@@ -2,22 +2,22 @@
     border-radius: 50%;
 }
 
-.gradient-background {
-    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+.title-background {
+    background-color: #F7EED3;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
- 
-    50% {
-        background-position: 100% 50%;
-    }
- 
-    100% {
-        background-position: 0% 50%;
-    }
+.body-background {
+    background-color: #FFF8E8;
 }
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+.gallery-title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
