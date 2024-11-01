@@ -1,4 +1,4 @@
-body{
+body {
   text-align: center;
 }
 .title-background {
@@ -15,17 +15,26 @@ body{
   gap: 15px;
   width: 100%;
 }
+#kitePhoto {
+  border-radius: 5%;
+}
 .parent {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   width: 50%;
+  margin: 50px auto 50px auto;
+}
+h1,
+h2,
+h3 {
+  color: #674636;
 }
 hr {
   border-top: #674636 dotted 6px;
   margin-top: 0;
-  width:60px;
-  margin: 0 auto ;
+  width: 60px;
+  margin: 0 auto;
 }
 .footer-background {
   background-color: #674636;
@@ -46,7 +55,6 @@ hr {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
-    
   }
 }
 
