@@ -22,18 +22,9 @@
   <body class="body-background">
     <!-- Introduction -->
     <section id="introduction" class="title-background">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="./assets/images/profile-photo.jpg"
-              class="d-block mx-lg-auto img-fluid profile-photo"
-              alt="Tommy's Profile photo"
-              height="200"
-              loading="lazy"
-            />
-          </div>
-          <div class="col-lg-6">
+      <div class="container py-5">
+        <div class="row align-items-center text-center text-lg-start">
+          <div class="col-12 col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
               Hi I'm Tommy
             </h1>
@@ -41,54 +32,65 @@
               Kitesurfer, Adventurer and Web Developer from your neighbourhood.
             </p>
           </div>
+          <div class="col-12 col-lg-6 text-center">
+            <img
+              src="./assets/images/profile-photo.jpg"
+              class="img-fluid rounded-circle profile-photo"
+              alt="Tommy's Profile photo"
+              height="200"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </section>
 
     <hr />
-    <!-- Skills and Hobbies-->
+    <!-- Skills and Hobbies -->
     <section id="skills" class="body-background">
-      <div class="skills">
-        <h2>My skills</h2>
-        <div class="parent">
-          <div class="cvTyping">
+      <div class="container py-5">
+        <h2 class="text-center mb-4">My Skills</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
             <h3>Personal Resume</h3>
             <p>
               If you would like to know more about my professional skills and
-              experience feel free to check my Online Resume here:
+              experience, feel free to check my Online Resume here:
             </p>
             <p>
               <a href="https://tom-par.github.io/Online-Resume/">My Resume</a>
             </p>
           </div>
-          <div class="kitesurfing">
+          <div class="col-12 col-md-6">
             <h3>Kitesurfing</h3>
             <p>
-              I stated kitesurfing arround 2020 and now I am a kitesurfing
-              instructor and I sure love doing that and learning people.
+              I started kitesurfing around 2020 and now I am a kitesurfing
+              instructor. I love doing it and teaching others.
             </p>
           </div>
-          <div class="kitesurfPhoto">
+          <div class="col-12 col-md-6 text-center">
             <img
-              id="kitePhoto"
               src="./assets/images/IMG_1151.jpg"
-              height="250px"
+              class="img-fluid rounded"
+              alt="Kitesurfing"
+              height="250"
             />
           </div>
-          <div class="hikingPhoto">
-            <img
-              id="mountains graphic"
-              src="./assets/images/hand-drawing-illustration-set-wanderlust-icons.png"
-              height="300px"
-            />
-          </div>
-          <div class="hikingInfo">
+          <div class="col-12 col-md-6">
             <h3>Hiking</h3>
             <p>
               I fell in love with hiking and mountaineering. I am new to the
-              sport but I want to learn climbing techniques to conquer the peaks
+              sport but I want to learn climbing techniques to conquer peaks
               like Mont Blanc.
             </p>
+          </div>
+          <div class="col-12 text-center">
+            <img
+              src="./assets/images/hand-drawing-illustration-set-wanderlust-icons.png"
+              class="img-fluid"
+              alt="Hiking"
+              height="300"
+            />
           </div>
         </div>
       </div>
@@ -96,86 +98,80 @@
 
     <hr />
     <!-- Photo gallery -->
-    <section id="photo-gallery">
-      <div class="gallery-title">
-        <h2>Photo Gallery</h2>
-        <p>Camera: Minolta X-700</p>
-      </div>
-      <div class="container container-grid text-center">
-        <div>
-          <img
-            src="./assets/images/IMG_0305.jpg"
-            alt="woman-eating-icecream"
-            height="400rem"
-          />
+    <section id="photo-gallery" class="py-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>Photo Gallery</h2>
+          <p>Camera: Minolta X-700</p>
         </div>
-        <div>
-          <img
-            src="./assets/images/IMG_0831.jpg"
-            alt="volvo-tracktor"
-            height="400px"
-          />
-        </div>
-        <div>
-          <img
-            src="./assets/images/IMG_0839.jpg"
-            alt="boats-of-venezia"
-            height="400px"
-          />
-        </div>
-        <div>
-          <img
-            src="./assets/images/IMG_1665.jpg"
-            alt="flags-on-rocks"
-            height="400px"
-          />
-        </div>
-        <div>
-          <img
-            id="vertical-photo"
-            src="./assets/images/IMG_1403.jpg"
-            alt="street-valencia"
-            height="350px"
-          />
-        </div>
-        <div>
-          <img
-            src="./assets/images/IMG_1681.jpg"
-            alt="bee-hive-under-mthe-mountain"
-            height="400px"
-          />
+        <div class="row g-3">
+          <div class="col-12 col-sm-6 col-md-4">
+            <img
+              src="./assets/images/IMG_0305.jpg"
+              class="img-fluid rounded"
+              alt="Woman eating ice cream"
+            />
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <img
+              src="./assets/images/IMG_0831.jpg"
+              class="img-fluid rounded"
+              alt="Volvo tractor"
+            />
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <img
+              src="./assets/images/IMG_0839.jpg"
+              class="img-fluid rounded"
+              alt="Boats of Venezia"
+            />
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <img
+              src="./assets/images/IMG_1665.jpg"
+              class="img-fluid rounded"
+              alt="Flags on rocks"
+            />
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <img
+              src="./assets/images/IMG_1403.jpg"
+              class="img-fluid rounded"
+              alt="Street in Valencia"
+            />
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <img
+              src="./assets/images/IMG_1681.jpg"
+              class="img-fluid rounded"
+              alt="Bee hive under mountain"
+            />
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Book corner -->
-    <section id="bookworm"></section>
-
-    <!-- Contact -->
-    <section id="contact"></section>
-
-    <!-- Footer -->
+    <!-- Contact and Footer -->
     <section id="footer" class="footer-background">
       <div class="container">
-        <footer class="py-3 mt-4">
+        <footer class="py-4 text-center">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item">
               <a
                 href="https://www.linkedin.com/in/tomasz-paruzel-a9a397228/"
-                class="nav-link px-2 text-body-secondary"
+                class="nav-link px-2 text-light"
                 >LinkedIn</a
               >
             </li>
-
             <li class="nav-item">
               <a
                 href="https://www.instagram.com/tommys.w0rld/"
-                class="nav-link px-2 text-body-secondary"
+                class="nav-link px-2 text-light"
                 >Instagram</a
               >
             </li>
           </ul>
-          <p class="text-center text-body-secondary">© 2024 Tomasz Paruzel</p>
+          <p class="text-light">© 2024 Tomasz Paruzel</p>
         </footer>
       </div>
     </section>
